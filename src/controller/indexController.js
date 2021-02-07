@@ -1,5 +1,5 @@
-const axios = require ('axios');
-const Order = require('../models/Order');
+const axios = require('axios');
+const Order = require('../models/link');
 const pipeDrive = require('../services/pipeDrive');
 const bling = require('../services/bling');
 const { orders } = require('../services/bling')
