@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const pipeDrive = {
     base_Url:'https://api.pipedrive.com/v1',
-    tokenApi:'659c9fddb16335e48cc67114694b52074e812e03',
+    tokenApi:'58a181f0a2a9ddef29c90b3149c147b2a0b708ff',
 
     list: async() => {
         const response = await axios.get(`${pipeDrive.base_Url}/deals`, {
