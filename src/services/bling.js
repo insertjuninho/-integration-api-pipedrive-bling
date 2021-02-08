@@ -6,10 +6,9 @@ const { response } = require('express');
 
 const bling = {
     base_url: 'https://bling.com.br/Api/v2',
-    api_key: 'b0ccab4ed68422d3d487bded1160b4cdebf340e044d13d9dbc21e22d3aa9a1c154e3558c',
+    api_key: '3181cab3ba921e17750aa1fea10c0ec21f720b66e10795f62b34e7ccdb6b1c0d48dddb93',
 
     orders: async () => {
-        console.log("TO AQ", bling.base_url)
         const response = await axios.get(`${bling.base_url}/pedidos/json`, {
             params:{
                 api_key: bling.api_key
